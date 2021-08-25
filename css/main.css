@@ -1,0 +1,66 @@
+/* Criando uma variável para ser retutilizada */
+:root {
+  --vermelho: red;
+  --preta: #141414;
+}
+
+* {
+  /* reset CSS */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*O limite de tudo que está dentro é a borda da caixa */
+}
+
+/* ELEMENTOS BASE */
+body {
+  background: var(--preta);
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+}
+header .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /*Organiza de maneira horizontal*/
+}
+
+header .logo {
+  margin-left: 5px;
+  color: var(--vermelho);
+  font-family: "Arial Black", Times;
+  font-size: 40px;
+}
+
+header nav a {
+  text-decoration: none; /*Removendo linhas abaixo dos links */
+  color: #aaa;
+  margin-right: 10px;
+}
+
+/* Mudando a cor da fonte ao passar o cursor do mouse sobre */
+header nav a:hover {
+  color: #fff;
+}
+
+/* FILME PRINCIPAL */
+.filme-principal {
+  font-size: 16px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) 100%),
+    url("../img/akira_filme.jpg");
+
+  height: 400px;
+  background-size: cover; /* Deixa a imagem do tamanho da caixa de visualização*/
+
+  display: flex;
+  flex-direction: column; /* Organiza de maneira vertical*/
+  justify-content: center; /* Centraliza o conteúdo*/
+  align-items: flex-start; /* Alinha os itens a direita da tela */
+}
+
+main div div h3 {
+  color: red;
+  font-family: "Arial Black";
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  animation: alternate-reverse;
+}
