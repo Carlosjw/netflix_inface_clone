@@ -73,3 +73,13 @@ main div div h3 {
   margin-right: 10px;
   text-align: justify;
 }
+
+.botao {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: white;
+
+  padding: 15px;
+  margin-right: 15px;
+  font-size: 12px;
+}
