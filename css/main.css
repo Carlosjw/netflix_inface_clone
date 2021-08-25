@@ -96,9 +96,13 @@ header nav a:hover {
 }
 
 .botao:hover {
-  background-color: darkred;
-  color: white;
-  border: 1px solid white;
+  background-color: white;
+  color: black;
+  border: 1px solid darkred;
   cursor: pointer; /* Exibe a mão com clique */
   transition: 0.3s ease all; /* Suaviza transição de cor */
+}
+
+.botao i {
+  margin-right: 8px;
 }
