@@ -60,7 +60,16 @@ header nav a:hover {
 main div div h3 {
   color: red;
   font-family: "Arial Black";
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: rgb(0, 0, 0);
+  font-size: 30px;
+  -webkit-text-stroke-width: 0.3px;
+  -webkit-text-stroke-color: #141414;
   animation: alternate-reverse;
+}
+
+.descricao {
+  font-size: 17px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align: justify;
 }
