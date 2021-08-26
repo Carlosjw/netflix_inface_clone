@@ -60,7 +60,7 @@ header nav a:hover {
   align-items: flex-start; /* Alinha os itens a direita da tela */
 }
 
-.filme-principal .descricao{
+.filme-principal .descricao {
   margin-top: 20px;
   margin-bottom: 15px;
   font-size: 15px;
@@ -68,7 +68,7 @@ header nav a:hover {
   /*margin-right: 15px;*/
   text-align: justify;
 }
-.carrosel-filmes{
+.carrosel-filmes {
   margin-top: 15px;
   padding-top: 15px;
 }
@@ -85,7 +85,7 @@ header nav a:hover {
   font-size: 40px;
 }
 
-.botoes{
+.botoes {
   margin-bottom: 30px;
   justify-content: center;
 }
@@ -135,7 +135,7 @@ header nav a:hover {
   justify-content: center;
 }
 
-.item:hover{
+.item:hover {
   border: 5px solid darkred;
   border-radius: 10px;
 }
@@ -163,7 +163,7 @@ header nav a:hover {
   padding: 10px;
 }
 
-.item:hover button{
+.item:hover button {
   display: flex;
   transition: all 0.3s;
 }
@@ -171,4 +171,3 @@ header nav a:hover {
 .imageButton i {
   margin-right: 8px;
 }
-
